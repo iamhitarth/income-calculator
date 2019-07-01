@@ -1,0 +1,11 @@
+{
+  "name": "contract-rate-calculator",
+  "version": "0.0.1",
+  "description": "Find a reasonable contract rate equivalent to that of a salary.",
+  "main": "index.js",
+  "author": "Hitarth Sharma <hitarth.sharma@outlook.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^3.5.2"
+  }
+}

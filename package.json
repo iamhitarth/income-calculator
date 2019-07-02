@@ -1,11 +1,22 @@
 {
-  "name": "contract-rate-calculator",
+  "name": "income-calculator",
   "version": "0.0.1",
-  "description": "Find a reasonable contract rate equivalent to that of a salary.",
-  "main": "index.js",
+  "description": "Find contract rate equivalent to that of a salary and vice versa.",
+  "main": "index.html",
   "author": "Hitarth Sharma <hitarth.sharma@outlook.com>",
   "license": "MIT",
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html"
+  },
   "devDependencies": {
+    "@types/react": "^16.8.22",
+    "@types/react-dom": "^16.8.4",
+    "parcel-bundler": "^1.12.3",
     "typescript": "^3.5.2"
+  },
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
   }
 }
